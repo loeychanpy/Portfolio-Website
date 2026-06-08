@@ -59,7 +59,7 @@ CI_ENVIRONMENT = development
 app_baseURL = 'http://localhost/412024033_Janisha_Jaya/public/'
 
 database.default.hostname = localhost
-database.default.database = 20222_wp2_412024033
+database.default.database = portfolio_db
 database.default.username = root
 database.default.password =
 database.default.DBDriver = MySQLi
