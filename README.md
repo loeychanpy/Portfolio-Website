@@ -20,7 +20,7 @@ Personal portfolio website with a full admin panel for managing articles, galler
 | Layer | Technology |
 |---|---|
 | Backend | CodeIgniter 4.7 (PHP 8.2) |
-| Database | MariaDB (port 3307) |
+| Database | MariaDB |
 | Frontend (public) | Bootstrap 5, jQuery |
 | Frontend (admin) | Tailwind CSS, Material Symbols |
 | Local server | XAMPP |
