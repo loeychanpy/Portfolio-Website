@@ -17,7 +17,7 @@
                         <p class=" fw-medium mb-3" style="color: var(--color-primary);">Informatics Student</p>
                         
                         <p class="text-muted mb-4">
-                            Crafted with Native PHP architecture. Powered by Bootstrap 5 for modern UI and jQuery for seamless interactivity.
+                            Built on the CodeIgniter 4 framework as a personal portfolio, showcasing an Informatics student's journey through Web Programming and Game Development. Styled with Bootstrap 5 for responsive UI and enhanced with jQuery for smooth interactivity.
                         </p>
                         
                         <div class="d-grid gap-2 col-8 mx-auto">

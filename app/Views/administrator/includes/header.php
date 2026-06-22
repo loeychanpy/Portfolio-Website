@@ -105,8 +105,9 @@
         <div class="flex items-center flex-1 max-w-xl">
             <div class="relative w-full">
                 <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">search</span>
-                <input class="w-full bg-surface-container-low border border-outline-variant/30 rounded-lg py-2 pl-10 pr-4 text-sm placeholder:text-on-surface-variant/50"
-                       placeholder="Search articles, messages..." type="text">
+                <input id="admin-search"
+                       class="w-full bg-surface-container-low border border-outline-variant/30 rounded-lg py-2 pl-10 pr-4 text-sm placeholder:text-on-surface-variant/50"
+                       placeholder="Search articles, messages..." type="text" autocomplete="off">
             </div>
         </div>
         <div class="flex items-center gap-3 ml-6">

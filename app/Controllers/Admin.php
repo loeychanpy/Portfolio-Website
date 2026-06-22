@@ -261,8 +261,8 @@ class Admin extends BaseController
         $file       = $this->request->getFile('image_file');
         $hasNewFile = $file && $file->isValid() && !$file->hasMoved();
 
+        
         $rules = ['title' => 'required|min_length[2]|max_length[255]'];
-
         if (!$id) {
             $rules['image_file'] = 'uploaded[image_file]|max_size[image_file,2048]|is_image[image_file]'
                 . '|mime_in[image_file,image/jpg,image/jpeg,image/png,image/webp,image/gif]';

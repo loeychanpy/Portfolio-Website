@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
-    <link href="<?= base_url('assets/css/admin-auth.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/admin.css') ?>" rel="stylesheet">
 </head>
 <body class="min-h-screen flex items-center justify-center p-4">
 

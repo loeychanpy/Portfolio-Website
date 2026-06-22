@@ -9,6 +9,28 @@ document.querySelectorAll('.card-lift').forEach(function (card) {
     });
 });
 
+// Admin search
+(function () {
+    var input = document.getElementById('admin-search');
+    if (!input) return;
+
+    input.addEventListener('input', function () {
+        var q = this.value.toLowerCase().trim();
+
+        // Table rows (articles & messages pages)
+        document.querySelectorAll('tbody tr').forEach(function (row) {
+            // Skip empty-state rows (cells with colspan span the whole table)
+            if (row.querySelector('td[colspan]')) return;
+            row.style.display = (!q || row.textContent.toLowerCase().includes(q)) ? '' : 'none';
+        });
+
+        // Gallery cards
+        document.querySelectorAll('.card-lift').forEach(function (card) {
+            card.style.display = (!q || card.textContent.toLowerCase().includes(q)) ? '' : 'none';
+        });
+    });
+})();
+
 // Gallery image preview
 var imageInput = document.getElementById('imageInput');
 if (imageInput) {
